@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A152B5B12D6334B600899867 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A152B5B02D6334B600899867 /* GLUT.framework */; };
+		A152B5B32D6334BD00899867 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A152B5B22D6334BD00899867 /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		A152B5A32D6333C500899867 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -20,6 +25,8 @@
 
 /* Begin PBXFileReference section */
 		A152B5A52D6333C500899867 /* Color Filling Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Color Filling Algorithm"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A152B5B02D6334B600899867 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		A152B5B22D6334BD00899867 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -35,6 +42,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A152B5B32D6334BD00899867 /* OpenGL.framework in Frameworks */,
+				A152B5B12D6334B600899867 /* GLUT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				A152B5A72D6333C500899867 /* Color Filling Algorithm */,
+				A152B5AF2D6334B600899867 /* Frameworks */,
 				A152B5A62D6333C500899867 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,6 +65,15 @@
 				A152B5A52D6333C500899867 /* Color Filling Algorithm */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A152B5AF2D6334B600899867 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A152B5B22D6334BD00899867 /* OpenGL.framework */,
+				A152B5B02D6334B600899867 /* GLUT.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
